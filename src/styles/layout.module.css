@@ -1,0 +1,25 @@
+.layout_container {
+  background-color: #222;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  width: 100%;
+  position: relative;
+}
+
+.dashboard_content {
+  /* No default styles yet */
+}
+
+@media screen and (min-width: 640px) {
+  .dashboard_content {
+    padding-left: 205px;
+  }
+  /*
+  .layout_container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    display: flex;
+    background-color: #f2f2f2;
+  }
+  */
+}
